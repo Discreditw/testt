@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Оценки</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
+<body>
+<nav><a href="index.html">Главная</a> | <a href="grades.html">Оценки</a></nav>
+<h2>Оценки (визуально)</h2>
+<div class="filters">
+  <input id="subjectFilter" placeholder="Фильтр по предмету">
+  от <input id="fromDate" type="date"> до <input id="toDate" type="date">
+  <button onclick="applyGradeFilter()">Применить</button>
+  <button onclick="resetGradeFilter()">Сброс</button>
+</div>
+<ul id="gradesList">
+  <!-- js fills -->
+</ul>
+<p class="note">Оценки статичны — фильтр работает локально на фронтенде.</p>
+</body>
+</html>

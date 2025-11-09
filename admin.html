@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Админ - База данных (UI)</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
+<body>
+<nav><a href="index.html">Главная</a> | <a href="admin.html">Админ</a></nav>
+<h2>Админ: интерфейс базы данных</h2>
+<p>Здесь показаны таблицы пользователей, оценок и расписания — только интерфейс для демонстрации.</p>
+
+<h3>Пользователи</h3>
+<table id="usersTable" class="dbtable"><thead><tr><th>ID</th><th>Логин</th><th>Роль</th><th>Действие</th></tr></thead><tbody></tbody></table>
+
+<h3>Оценки</h3>
+<table id="gradesTable" class="dbtable"><thead><tr><th>ID</th><th>User ID</th><th>Предмет</th><th>Оценка</th><th>Дата</th><th>Действие</th></tr></thead><tbody></tbody></table>
+
+<h3>Расписание</h3>
+<table id="scheduleTable" class="dbtable"><thead><tr><th>ID</th><th>День</th><th>Время</th><th>Предмет</th><th>Кабинет</th></tr></thead><tbody></tbody></table>
+
+<p class="note">Кнопки редактирования и удаления не работают — они только для показа UX.</p>
+</body>
+</html>

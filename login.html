@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Вход</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
+<body>
+<nav><a href="index.html">Главная</a> | <a href="login.html">Вход</a></nav>
+<h2>Вход (визуальный)</h2>
+<form id="loginForm" onsubmit="fakeLogin(event)">
+  <input id="username" placeholder="Логин" required><br>
+  <input id="password" type="password" placeholder="Пароль" required><br>
+  <button type="submit">Войти</button>
+</form>
+<p id="loginMsg" class="note">Это только визуальный логин — не отправляет данные на сервер.</p>
+</body>
+</html>

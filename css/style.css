@@ -1,0 +1,9 @@
+
+body{font-family:Arial, sans-serif;margin:18px}
+nav{margin-bottom:12px}
+.note{color:#666;font-size:0.9em}
+.schedule, .dbtable{border-collapse:collapse;width:100%;margin:10px 0}
+.schedule th, .schedule td, .dbtable th, .dbtable td{border:1px solid #ccc;padding:6px}
+.filters input{margin-right:6px}
+.chatbox{border:1px solid #ccc;height:240px;overflow:auto;padding:8px;margin-bottom:6px;background:#fafafa}
+.chatbox .msg{margin:6px 0;padding:6px;border-radius:6px;background:#fff;box-shadow:0 0 0 1px #eee inset}
